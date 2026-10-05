@@ -1,0 +1,37 @@
+name: Model, feature, or research proposal
+description: Suggest a concrete workflow, model, study, or improvement.
+title: "[Proposal]: "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Proposal type
+      options:
+        - Model or solver
+        - Interface or accessibility
+        - Research or teaching
+        - Real-world workflow or pilot
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: Who is this for, and what are they trying to do?
+      description: Describe a concrete desired result and what must stay fixed.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and evidence
+      description: Include equations, units, references, or examples where relevant. Distinguish hypotheses from measured results.
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Smallest useful version and how to verify it
+      description: What would demonstrate that this works? Mention whether you would like to contribute.
+    validations:
+      required: true

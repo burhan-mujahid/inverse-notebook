@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use Inverse in research or teaching, please cite this software and record the commit hash you used."
+type: software
+title: "Inverse: An interactive notebook for inverse problems"
+authors:
+  - family-names: "Mujahid"
+    given-names: "Burhan"
+    email: "burhanmujahid552@gmail.com"
+repository-code: "https://github.com/burhan-mujahid/inverse-notebook"
+url: "https://github.com/burhan-mujahid/inverse-notebook"
+license: MIT
+abstract: >-
+  A browser-based computational notebook for working backward from a desired
+  result. A cantilever beam prototype demonstrates constrained inverse solving
+  with exact locks, weighted relative changes, reachable output intervals,
+  and reversible proposals. Its small JavaScript engine supports positive
+  monomial relationships with log-linear constraints.
+keywords:
+  - inverse problems
+  - interactive computation
+  - convex optimization
+  - constraint solving
+  - human-computer interaction
+  - explorable explanations
+  - scientific computing

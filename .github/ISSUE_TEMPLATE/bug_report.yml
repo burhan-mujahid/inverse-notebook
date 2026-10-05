@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible calculation, interaction, or documentation problem.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what did you expect?
+      description: For numerical problems, include units and an independent expected result if available.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the target, starting inputs, material, locks, and weights. Share only non-sensitive notebook data.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Browser/version, OS, Node version, commit hash"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or error output
+      description: Optional. Remove personal information and credentials.

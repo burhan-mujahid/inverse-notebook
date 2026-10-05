@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Research, teaching, or pilot collaboration
+    url: mailto:burhanmujahid552@gmail.com
+    about: Contact Burhan with your domain and one concrete use case.
+  - name: Open-ended discussion
+    url: https://github.com/burhan-mujahid/inverse-notebook/discussions
+    about: Explore the idea, ask questions, or discuss future models.
+  - name: Private vulnerability report
+    url: mailto:burhanmujahid552@gmail.com
+    about: Report exploitable vulnerabilities privately, with reproduction steps.

@@ -1,0 +1,33 @@
+{
+  "name": "inverse-notebook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive notebook for inverse problems: edit outcomes, lock inputs, and explore constrained changes.",
+  "license": "MIT",
+  "author": "Burhan Mujahid <burhanmujahid552@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhan-mujahid/inverse-notebook.git"
+  },
+  "homepage": "https://github.com/burhan-mujahid/inverse-notebook#readme",
+  "bugs": {
+    "url": "https://github.com/burhan-mujahid/inverse-notebook/issues"
+  },
+  "keywords": [
+    "inverse-problems", "interactive-computation", "convex-optimization",
+    "constraint-solving", "scientific-computing", "explorable-explanations"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test test/*.test.js",
+    "check": "node scripts/check.mjs",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}
